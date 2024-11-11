@@ -2,7 +2,10 @@ body{
     margin: 0;
     background-color: #F63568;
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
     overflow-y: hidden;
+    min-height: 100vh;
 }
 
 .header{
@@ -18,7 +21,13 @@ h1,h2{
     color: rgb(32, 65, 114);
     transition: .25s;
 }
-
+main
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .main-grid{
     display: flex;
     justify-content: center;
